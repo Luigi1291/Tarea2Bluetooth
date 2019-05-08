@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top">
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/labelURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnTurnOn"
+        android:layout_width="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/btnOn"/>
+
+    <Button
+        android:id="@+id/btnTurnOff"
+        android:layout_width="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/btnOff"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary">
+    </View>
+
+    <TextView
+        android:id="@+id/lblHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/lblContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="false" />
+</LinearLayout>
